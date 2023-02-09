@@ -227,3 +227,13 @@ footer {
   color: #fff;
 }
 
+.social i {
+  color: black;
+}
+
+@media screen and (max-width:1024px) {
+  .social i {
+    color: green;
+  }
+}
+
