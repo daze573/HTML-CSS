@@ -227,13 +227,16 @@ footer {
   color: #fff;
 }
 
-.social i {
-  color: black;
-}
 
-@media screen and (max-width:1024px) {
-  .social i {
-    color: green;
+@media screen and (max-width: 425px) {
+  html {
+    color: red;
+    width: 100%;
   }
 }
 
+@media screen and (max-width: 425px) {
+  .blog-item {
+    display: block;
+  }
+}
